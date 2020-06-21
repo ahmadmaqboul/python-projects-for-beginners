@@ -35,7 +35,8 @@ while i < turns :
         tie+=1
         print("computer choose : ",computerchoice)
         print("no one win")
-    elif user[userchoice][0] == computerchoice:
+    elif user[userchoice][0] == computerchoice: #user[userchoice][0] always win // #user[userchoice][0] always loss
+        win+=1
         win+=1
         print("computer choose : ",computerchoice)
         print("you win")
